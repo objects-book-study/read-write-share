@@ -15,7 +15,7 @@
     - 초대장이 없는 경우에는 티켓을 구매해야 입장할 수 있다.
 ```
 
-[코드 정리 링크 - 티켓판매어플(절차지향).md]()
+[코드 정리 링크 - 티켓판매어플(절차지향).md](<https://github.com/objects-book-study/practice-object-book/blob/main/minsan/ch01/%ED%8B%B0%EC%BC%93%ED%8C%90%EB%A7%A4%EC%96%B4%ED%94%8C(%EC%A0%88%EC%B0%A8%EC%A7%80%ED%96%A5).md>)
 
 ## 2. 무엇이 문제인가
 
@@ -115,7 +115,7 @@ _만약 관람객이 가방을 들고 있지 않다면? 관람객이 현금이 �
 
 👉🏻 해결 방법은 수동적이었던 관람객(`Audience`)과 판매원(`TicketSeller`)을 자율적인 존재로 만들면 되는 것이다.
 
-[코드 정리 링크 - 티켓판매어플(객체지향).md]()
+[코드 정리 링크 - 티켓판매어플(객체지향).md](<https://github.com/objects-book-study/practice-object-book/blob/main/minsan/ch01/%ED%8B%B0%EC%BC%93%ED%8C%90%EB%A7%A4%EC%96%B4%ED%94%8C(%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5).md>)
 
 ### 3-1. 자율성을 높이자
 
