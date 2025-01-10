@@ -77,7 +77,7 @@
 
 ### 클래스 구현하기
 
-#### [Screening 클래스]()
+#### [Screening 클래스](https://github.com/objects-book-study/practice-object-book/blob/main/minsan/ch02/src/Screening.java)
 
 - 사용자들이 예매하는 대상인 `상영`을 구현한다.
 - **상영할 영화, 순번, 상영 시작 시간**을 인스턴스 변수로 갖는다.
@@ -148,7 +148,7 @@ public class Screening {
 >
 > 그 개념이 하나의 인스턴스 변수만 포함하더라도, **개념을 명시적으로 표현하는 것**은 전체적인 설계의 명확성과 유연성을 높여준다.
 
-#### [Reservation 클래스]()
+#### [Reservation 클래스](https://github.com/objects-book-study/practice-object-book/blob/main/minsan/ch02/src/Reservation.java)
 
 - **고객, 상영 정보, 예매 요금, 인원 수**를 속성으로 포함한다.
 
@@ -173,7 +173,7 @@ public class Screening {
 
 ### 할인 요금 계산을 위한 협력 시작하기
 
-#### [Movie 클래스]()
+#### [Movie 클래스](https://github.com/objects-book-study/practice-object-book/blob/main/minsan/ch02/src/Movie.java)
 
 - `DiscountPolicy`에 **calculateDiscountAmount** 메시지를 전송해 할인 요금을 반환받는다.
 
@@ -205,17 +205,17 @@ public class Screening {
 
 할인 조건은 `순번 조건`과 `상영 기간 조건`이 있다. 이를 인터페이스로 추상화한 후 각각을 구현한다.
 
-#### [DiscountCondition 인터페이스]()
+#### [DiscountCondition 인터페이스](https://github.com/objects-book-study/practice-object-book/blob/main/minsan/ch02/src/DiscountCondition.java)
 
-#### [SequenceCondition 구현체]()
+#### [SequenceCondition 구현체](https://github.com/objects-book-study/practice-object-book/blob/main/minsan/ch02/src/SequenceCondition.java)
 
-#### [PeriodCondition 구현체]()
+#### [PeriodCondition 구현체](https://github.com/objects-book-study/practice-object-book/blob/main/minsan/ch02/src/PeriodCondition.java)
 
 할인 정책은 `금액 할인 정책`과 `비율 할인 정책`이 있다. 마찬가지로 추상 클래스 DiscountPolicy를 각각 상속받아서 구현한다.
 
-#### [AmountDiscountPolicy 클래스]()
+#### [AmountDiscountPolicy 클래스](https://github.com/objects-book-study/practice-object-book/blob/main/minsan/ch02/src/AmountDiscountPolicy.java)
 
-#### [PercentDiscountPolicy 클래스]()
+#### [PercentDiscountPolicy 클래스](https://github.com/objects-book-study/practice-object-book/blob/main/minsan/ch02/src/PercentDiscountPolicy.java)
 
 영화 가격 계산에 참여하는 모든 클래스 사이의 관계를 **다이어그램**으로 표현하면 아래와 같다.
 
@@ -362,7 +362,7 @@ public class Movie {
 
 이 경우 일관성을 지킬 수 있는 방법은 0원이라는 할인 요금을 계산할 책임을 그대로 DiscountPolicy 계층에 유지시키는 것이다.
 
-[NoneDiscountPolicy 클래스]()
+[NoneDiscountPolicy 클래스](https://github.com/objects-book-study/practice-object-book/blob/main/minsan/ch02/src/NoneDiscountPolicy.java)
 
 따라서 스타워즈의 경우 아래와 같이 생성할 수 있을 것이다.
 
