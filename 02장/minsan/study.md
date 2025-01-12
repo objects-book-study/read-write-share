@@ -190,7 +190,7 @@ public class Screening {
 따라서 두 클래스 사이 중복 코드를 제거하기 위해 공통 코드를 보관할 장소가 필요하다.  
 여기서는 부모 클래스인 `DiscountPolicy` 안에 중복 코드를 두고 `AmountDiscountPolicy`와 `PercentDiscountPolicy`가 이 클래스를 상속받게 할 것이다.
 
-#### [DiscountPolicy 추상 클래스]()
+#### [DiscountPolicy 추상 클래스](https://github.com/objects-book-study/practice-object-book/commit/bb79d7c7dad061fd86ca7f59edebd2069911d057)
 
 > 여기서 모든 할인 정책의 공통 기능은 _주어진 상영에 대해서 만족하는 조건이 존재하는 경우, 할인 금액을 리턴하는 것_ 이다.
 
