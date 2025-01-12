@@ -213,9 +213,9 @@ public class Screening {
 
 할인 정책은 `금액 할인 정책`과 `비율 할인 정책`이 있다. 마찬가지로 추상 클래스 DiscountPolicy를 각각 상속받아서 구현한다.
 
-#### [AmountDiscountPolicy 클래스](https://github.com/objects-book-study/practice-object-book/blob/main/minsan/ch02/src/AmountDiscountPolicy.java)
+#### [AmountDiscountPolicy 클래스](https://github.com/objects-book-study/practice-object-book/commit/b312502c7ef6997eff30ba33ce343df275dd5d2e)
 
-#### [PercentDiscountPolicy 클래스](https://github.com/objects-book-study/practice-object-book/blob/main/minsan/ch02/src/PercentDiscountPolicy.java)
+#### [PercentDiscountPolicy 클래스](https://github.com/objects-book-study/practice-object-book/commit/1964a53815e543b6fbce1237008726cce8f76dbc)
 
 영화 가격 계산에 참여하는 모든 클래스 사이의 관계를 **다이어그램**으로 표현하면 아래와 같다.
 
