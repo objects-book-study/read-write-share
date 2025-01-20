@@ -648,7 +648,8 @@ _(앞의 마지막 예제)_ - `DiscountCondition`이 **할인 여부를 판단�
 그리고 `Screening` 클래스의 `calculateFee` 메서드에서도 `Movie`의 `isDiscountable` 메서드를 사용하기 때문에, `Screening` 클래스에서도 변경이 발생한다.
 
 ```md
-즉, 할인 가능 여부를 판단하는 isDiscountable에 의존하는 객체가 `분산되어 존재`할뿐만 아니라(= 낮은 응집도), isDiscountable이 변화에 취약한 `상태`를 포함하고 있기 때문(= 캡슐화 위반)이다.
+즉, 할인 가능 여부를 판단하는 isDiscountable에 의존하는 객체가 `분산되어 존재`할뿐만 아니라(= 낮은 응집도),
+isDiscountable이 변화에 취약한 `상태`를 포함하고 있기 때문(= 캡슐화 위반)이다.
 ```
 
 👉🏻 이는 원래` DiscountCondition`이나 `Movie`에 위치해야 하는 로직이 Screening으로 새어나왔기 때문이다.
